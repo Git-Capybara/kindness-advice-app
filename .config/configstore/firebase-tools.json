@@ -1,0 +1,38 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1755303641043
+	},
+	"gemini": true,
+	"usage": true,
+	"analytics-uuid": "ec98b141-3b4e-406e-a432-6b0968b2e5b9",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "115022087514267117245",
+		"email": "emilytuxiaodou@gmail.com",
+		"email_verified": true,
+		"at_hash": "bMPbvqwpo-tnsg7IhbLmRg",
+		"iat": 1755303705,
+		"exp": 1755307305
+	},
+	"tokens": {
+		"expires_at": 1755307304883,
+		"access_token": "ya29.a0AS3H6Nw0qgdLRHPyCfk-egHX5nuQA8kfiwaANA8nkDLheME55rXjvO1Q1-C0wGmKym3Ik90fDqoDjbKIqhrTEUYqHeTWFQkNIipuM5vDAKQCgvApkWzISPsrkL14g9XUQhM-DgIPbO6HDzJuWgIRn_xRqkaWP9jFAD_vmQs81LfeRwaCgYKAaESARUSFQHGX2Mi3Sj-Gt0f_aJeAiLnvgrJmw0181",
+		"expires_in": 3599,
+		"refresh_token": "1//06FjiCq5kTirXCgYIARAAGAYSNwF-L9Ir7zjUR_Okt0KWJnRHvMy8U089SttOasB7_Y0gjUf0m22pn_lq4WZ-f4ArYABhyzVcUwg",
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/firebase",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk4ZGM1NWM4YjIwOTM2M2EyNDUxNzc0YmNlNWM0MjcxOGQxM2NiN2QiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE1MDIyMDg3NTE0MjY3MTE3MjQ1IiwiZW1haWwiOiJlbWlseXR1eGlhb2RvdUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6ImJNUGJ2cXdwby10bnNnN0loYkxtUmciLCJpYXQiOjE3NTUzMDM3MDUsImV4cCI6MTc1NTMwNzMwNX0.MC3aWAOfqyMZ02tHxuGF0wY_MO0GxtVgJAI49-wKaV3ciwfrBadbN0ONz6h2EjLCNf7zvIlivVcsruIPwT7qkibC8XFzyZNRy0zsgu8lMZl0KDgIrmyzJ2SDiEWmUKDVk2VR5HLOa7kX9h5EgAQNlnKDQ-IdulHD3HGL4Wg83wzHa6FykWpeEwRqvxVUoQQ1jJvoY5bXNKwtf4YfXeFJma6_cv3NG8X68I6e5aALct8r9FnBzJRmvt96xPloO0PKeSIftPp2Zrx4y2JA4w73zlD76JLbLdPaJLYd19YnZb_xC7j4nDRgkY1uJ8D5mC-fymdR5eQLdX52zLWWwtzfvg"
+	},
+	"activeProjects": {
+		"/home/ezh": "kindness-advice-column"
+	}
+}

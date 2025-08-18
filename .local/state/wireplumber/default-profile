@@ -1,0 +1,2 @@
+[default-profile]
+alsa_card.usb-1130_USB_AUDIO-00=output:analog-stereo

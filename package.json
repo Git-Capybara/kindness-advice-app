@@ -1,0 +1,29 @@
+{
+  "name": "ezh",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "kindnessadviceapp.js",
+  "scripts": {
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-object-rest-spread": "^7.28.0",
+    "@babel/runtime": "^7.28.3",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

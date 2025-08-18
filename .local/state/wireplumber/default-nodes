@@ -1,0 +1,7 @@
+[default-nodes]
+default.configured.audio.sink=alsa_output.usb-1130_USB_AUDIO-00.analog-stereo
+default.configured.audio.sink.0=alsa_output.usb-1130_USB_AUDIO-00.analog-stereo
+default.configured.audio.sink.1=alsa_output.usb-1130_USB_AUDIO-00.iec958-stereo
+default.configured.audio.sink.2=alsa_output.usb-Logitech_G_series_G435_Wireless_Gaming_Headset_202105190004-00.analog-stereo
+default.configured.audio.sink.3=alsa_output.pci-0000_10_00.6.analog-stereo
+default.configured.audio.sink.4=alsa_output.pci-0000_10_00.1.hdmi-stereo-extra2

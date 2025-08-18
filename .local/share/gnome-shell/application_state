@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.Nautilus.desktop" score="0.5" last-seen="1755475319"/>
+    <application id="google-chrome.desktop" score="16685.4609375" last-seen="1755554864"/>
+    <application id="org.gnome.Terminal.desktop" score="1093" last-seen="1755554881"/>
+    <application id="org.gnome.FileRoller.desktop" score="4.5" last-seen="1755475316"/>
+    <application id="org.gnome.TextEditor.desktop" score="18.5" last-seen="1755528631"/>
+  </context>
+</application-state>
