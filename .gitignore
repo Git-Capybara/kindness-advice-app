@@ -91,3 +91,6 @@ Downloads/
 
 # vs code
 .vscode/
+
+# nvm
+.nvm/
