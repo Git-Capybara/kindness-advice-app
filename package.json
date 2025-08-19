@@ -4,18 +4,21 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "kindnessadviceapp.js",
   "scripts": {
-    "build": "react-scripts build"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
   },
   "dependencies": {
-    "@babel/runtime": "^7.28.3"
+    "@babel/runtime": "^7.28.3",
+    "firebase": "^12.1.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.28.3",
     "@babel/preset-env": "^7.28.3",
     "@babel/preset-react": "^7.27.1",
+    "@craco/craco": "^7.1.0",
     "react-scripts": "^5.0.1"
   },
   "browserslist": {
