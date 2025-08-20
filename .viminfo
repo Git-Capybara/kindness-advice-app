@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1755731265,,"wq"
+|2,0,1755732965,,"wq"
 :q!
 |2,0,1755724300,,"q!"
 :qall
@@ -74,230 +74,261 @@
 |3,0,36,0,1,0,1755314218,"/"
 
 # File marks:
-'0  3  19  ~/src/index.css
-|4,48,3,19,1755731265,"~/src/index.css"
-'1  5  0  ~/src/index.js
-|4,49,5,0,1755731159,"~/src/index.js"
-'2  10  1  ~/tailwind.config.js
-|4,50,10,1,1755731079,"~/tailwind.config.js"
-'3  6  1  ~/postcss.config.js
-|4,51,6,1,1755731007,"~/postcss.config.js"
-'4  10  1  ~/tailwind.config.js
-|4,52,10,1,1755730974,"~/tailwind.config.js"
-'5  874  0  ~/src/App.js
-|4,53,874,0,1755730511,"~/src/App.js"
-'6  961  30  ~/src/App.js
-|4,54,961,30,1755726575,"~/src/App.js"
-'7  961  30  ~/src/App.js
-|4,55,961,30,1755726575,"~/src/App.js"
-'8  509  0  ~/src/App.js
-|4,56,509,0,1755726388,"~/src/App.js"
-'9  509  0  ~/src/App.js
-|4,57,509,0,1755726388,"~/src/App.js"
+'0  7  0  ~/postcss.config.js
+|4,48,7,0,1755732965,"~/postcss.config.js"
+'1  1  2  ~/craco.config.js
+|4,49,1,2,1755732225,"~/craco.config.js"
+'2  1  61  ~/postcss.config.js
+|4,50,1,61,1755732152,"~/postcss.config.js"
+'3  4  0  ~/postcss.config.js
+|4,51,4,0,1755732152,"~/postcss.config.js"
+'4  25  1  ~/craco.config.js
+|4,52,25,1,1755731620,"~/craco.config.js"
+'5  25  1  ~/craco.config.js
+|4,53,25,1,1755731620,"~/craco.config.js"
+'6  34  5  ~/package.json
+|4,54,34,5,1755731583,"~/package.json"
+'7  1  76  ~/postcss.config.js
+|4,55,1,76,1755731548,"~/postcss.config.js"
+'8  1  199  ~/postcss.config.js
+|4,56,1,199,1755731548,"~/postcss.config.js"
+'9  1  76  ~/postcss.config.js
+|4,57,1,76,1755731548,"~/postcss.config.js"
 
 # Jumplist (newest first):
+-'  7  0  ~/postcss.config.js
+|4,39,7,0,1755732965,"~/postcss.config.js"
+-'  1  61  ~/postcss.config.js
+|4,39,1,61,1755732904,"~/postcss.config.js"
+-'  1  2  ~/craco.config.js
+|4,39,1,2,1755732225,"~/craco.config.js"
+-'  1  2  ~/craco.config.js
+|4,39,1,2,1755732225,"~/craco.config.js"
+-'  25  1  ~/craco.config.js
+|4,39,25,1,1755732211,"~/craco.config.js"
+-'  25  1  ~/craco.config.js
+|4,39,25,1,1755732211,"~/craco.config.js"
+-'  4  0  ~/postcss.config.js
+|4,39,4,0,1755732152,"~/postcss.config.js"
+-'  4  0  ~/postcss.config.js
+|4,39,4,0,1755732152,"~/postcss.config.js"
+-'  1  76  ~/postcss.config.js
+|4,39,1,76,1755732103,"~/postcss.config.js"
+-'  1  76  ~/postcss.config.js
+|4,39,1,76,1755732103,"~/postcss.config.js"
+-'  25  1  ~/craco.config.js
+|4,39,25,1,1755731620,"~/craco.config.js"
+-'  25  1  ~/craco.config.js
+|4,39,25,1,1755731620,"~/craco.config.js"
+-'  25  1  ~/craco.config.js
+|4,39,25,1,1755731620,"~/craco.config.js"
+-'  25  1  ~/craco.config.js
+|4,39,25,1,1755731620,"~/craco.config.js"
+-'  1  1  ~/craco.config.js
+|4,39,1,1,1755731592,"~/craco.config.js"
+-'  1  1  ~/craco.config.js
+|4,39,1,1,1755731592,"~/craco.config.js"
+-'  1  1  ~/craco.config.js
+|4,39,1,1,1755731592,"~/craco.config.js"
+-'  1  1  ~/craco.config.js
+|4,39,1,1,1755731592,"~/craco.config.js"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  34  5  ~/package.json
+|4,39,34,5,1755731583,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  7  18  ~/package.json
+|4,39,7,18,1755731553,"~/package.json"
+-'  6  1  ~/postcss.config.js
+|4,39,6,1,1755731548,"~/postcss.config.js"
+-'  6  1  ~/postcss.config.js
+|4,39,6,1,1755731548,"~/postcss.config.js"
+-'  6  1  ~/postcss.config.js
+|4,39,6,1,1755731548,"~/postcss.config.js"
+-'  6  1  ~/postcss.config.js
+|4,39,6,1,1755731548,"~/postcss.config.js"
+-'  6  1  ~/postcss.config.js
+|4,39,6,1,1755731548,"~/postcss.config.js"
+-'  6  1  ~/postcss.config.js
+|4,39,6,1,1755731548,"~/postcss.config.js"
+-'  6  1  ~/postcss.config.js
+|4,39,6,1,1755731548,"~/postcss.config.js"
+-'  6  1  ~/postcss.config.js
+|4,39,6,1,1755731548,"~/postcss.config.js"
 -'  3  19  ~/src/index.css
 |4,39,3,19,1755731265,"~/src/index.css"
--'  1  0  ~/src/index.css
-|4,39,1,0,1755731249,"~/src/index.css"
--'  5  0  ~/src/index.js
-|4,39,5,0,1755731159,"~/src/index.js"
--'  5  0  ~/src/index.js
-|4,39,5,0,1755731159,"~/src/index.js"
--'  1  24  ~/src/index.js
-|4,39,1,24,1755731107,"~/src/index.js"
--'  1  24  ~/src/index.js
-|4,39,1,24,1755731107,"~/src/index.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755731079,"~/tailwind.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755731079,"~/tailwind.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755731079,"~/tailwind.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755731079,"~/tailwind.config.js"
--'  6  1  ~/postcss.config.js
-|4,39,6,1,1755731007,"~/postcss.config.js"
--'  6  1  ~/postcss.config.js
-|4,39,6,1,1755731007,"~/postcss.config.js"
--'  6  1  ~/postcss.config.js
-|4,39,6,1,1755731007,"~/postcss.config.js"
--'  6  1  ~/postcss.config.js
-|4,39,6,1,1755731007,"~/postcss.config.js"
--'  6  1  ~/postcss.config.js
-|4,39,6,1,1755731007,"~/postcss.config.js"
--'  6  1  ~/postcss.config.js
-|4,39,6,1,1755731007,"~/postcss.config.js"
--'  6  1  ~/postcss.config.js
-|4,39,6,1,1755731007,"~/postcss.config.js"
--'  6  1  ~/postcss.config.js
-|4,39,6,1,1755731007,"~/postcss.config.js"
--'  1  0  ~/postcss.config.js
-|4,39,1,0,1755730989,"~/postcss.config.js"
--'  1  0  ~/postcss.config.js
-|4,39,1,0,1755730989,"~/postcss.config.js"
--'  1  0  ~/postcss.config.js
-|4,39,1,0,1755730989,"~/postcss.config.js"
--'  1  0  ~/postcss.config.js
-|4,39,1,0,1755730989,"~/postcss.config.js"
--'  1  0  ~/postcss.config.js
-|4,39,1,0,1755730989,"~/postcss.config.js"
--'  1  0  ~/postcss.config.js
-|4,39,1,0,1755730989,"~/postcss.config.js"
--'  1  0  ~/postcss.config.js
-|4,39,1,0,1755730989,"~/postcss.config.js"
--'  1  0  ~/postcss.config.js
-|4,39,1,0,1755730989,"~/postcss.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755730974,"~/tailwind.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755730974,"~/tailwind.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755730974,"~/tailwind.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755730974,"~/tailwind.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755730974,"~/tailwind.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755730974,"~/tailwind.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755730974,"~/tailwind.config.js"
--'  10  1  ~/tailwind.config.js
-|4,39,10,1,1755730974,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  1  0  ~/tailwind.config.js
-|4,39,1,0,1755730959,"~/tailwind.config.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  874  0  ~/src/App.js
-|4,39,874,0,1755730511,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
--'  961  30  ~/src/App.js
-|4,39,961,30,1755727509,"~/src/App.js"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
+-'  3  19  ~/src/index.css
+|4,39,3,19,1755731265,"~/src/index.css"
 
 # History of marks within files (newest to oldest):
+
+> ~/postcss.config.js
+	*	1755732962	0
+	"	7	0
+	^	7	0
+	.	6	1
+	+	1	95
+	+	1	198
+	+	1	0
+	+	1	114
+	+	1	171
+	+	6	1
+
+> ~/craco.config.js
+	*	1755732222	0
+	"	1	2
+	^	1	2
+	.	25	1
+	+	25	217
+	+	25	1
+	+	13	1
+	+	1	0
+	+	2	0
+	+	25	1
+
+> ~/package.json
+	*	1755731581	0
+	"	34	5
+	^	7	19
+	.	7	18
+	+	7	18
 
 > ~/src/index.css
 	*	1755731262	0
@@ -352,13 +383,6 @@
 	.	10	1
 	+	10	1
 
-> ~/postcss.config.js
-	*	1755731004	0
-	"	6	1
-	^	6	2
-	.	6	1
-	+	6	1
-
 > ~/src/App.js
 	*	1755727522	0
 	"	874	0
@@ -370,13 +394,6 @@
 	+	962	0
 	+	6	0
 	+	961	30
-
-> ~/package.json
-	*	1755725757	0
-	"	7	18
-	^	7	19
-	.	7	18
-	+	7	18
 
 > ~/public/index.html
 	*	1755721653	0
@@ -401,18 +418,6 @@
 	.	11	16
 	+	15	0
 	+	11	16
-
-> ~/craco.config.js
-	*	1755641402	0
-	"	1	1
-	^	1	2
-	.	25	1
-	+	25	217
-	+	25	1
-	+	13	1
-	+	1	0
-	+	2	0
-	+	25	1
 
 > ~/.babelrc
 	*	1755639957	0

@@ -3,8 +3,8 @@
   <context id="">
     <application id="libreoffice-writer.desktop" score="0" last-seen="1755727306"/>
     <application id="org.gnome.Nautilus.desktop" score="0.25" last-seen="1755643734"/>
-    <application id="google-chrome.desktop" score="14267.73046875" last-seen="1755731090"/>
-    <application id="org.gnome.Terminal.desktop" score="1620.5" last-seen="1755731081"/>
+    <application id="google-chrome.desktop" score="14337.73046875" last-seen="1755732969"/>
+    <application id="org.gnome.Terminal.desktop" score="1805.5" last-seen="1755732968"/>
     <application id="org.gnome.FileRoller.desktop" score="2.25" last-seen="1755475316"/>
     <application id="org.gnome.TextEditor.desktop" score="37.75" last-seen="1755723735"/>
   </context>
