@@ -15,7 +15,9 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1755555028,,"wq"
+|2,0,1755725759,,"wq"
+:q!
+|2,0,1755724300,,"q!"
 :qall
 |2,0,1755315071,,"qall"
 :w
@@ -24,8 +26,6 @@
 |2,0,1755314980,,"vsplit src/index.js"
 :q
 |2,0,1755314968,,"q"
-:q!
-|2,0,1755314967,,"q!"
 :vsplit src/index.js.b
 |2,0,1755314961,,"vsplit src/index.js.b"
 :1
@@ -74,269 +74,352 @@
 |3,0,36,0,1,0,1755314218,"/"
 
 # File marks:
-'0  93  7  ~/.gitignore
-|4,48,93,7,1755555028,"~/.gitignore"
-'1  90  9  ~/.gitignore
-|4,49,90,9,1755554870,"~/.gitignore"
-'2  90  9  ~/.gitignore
-|4,50,90,9,1755554870,"~/.gitignore"
-'3  90  9  ~/.gitignore
-|4,51,90,9,1755554453,"~/.gitignore"
-'4  90  9  ~/.gitignore
-|4,52,90,9,1755554453,"~/.gitignore"
-'5  90  9  ~/.gitignore
-|4,53,90,9,1755553953,"~/.gitignore"
-'6  90  9  ~/.gitignore
-|4,54,90,9,1755553953,"~/.gitignore"
-'7  90  9  ~/.gitignore
-|4,55,90,9,1755553953,"~/.gitignore"
-'8  90  9  ~/.gitignore
-|4,56,90,9,1755553953,"~/.gitignore"
-'9  49  0  ~/.gitignore
-|4,57,49,0,1755553410,"~/.gitignore"
+'0  7  18  ~/package.json
+|4,48,7,18,1755725759,"~/package.json"
+'1  3  23  ~/src/index.js
+|4,49,3,23,1755725709,"~/src/index.js"
+'2  1  0  ~/src/App.js
+|4,50,1,0,1755725677,"~/src/App.js"
+'3  12  0  ~/src/index.js
+|4,51,12,0,1755725621,"~/src/index.js"
+'4  13  0  ~/src/index.js
+|4,52,13,0,1755725621,"~/src/index.js"
+'5  6  0  ~/src/App.js
+|4,53,6,0,1755725608,"~/src/App.js"
+'6  6  0  ~/src/App.js
+|4,54,6,0,1755725608,"~/src/App.js"
+'7  12  0  ~/src/index.js
+|4,55,12,0,1755725597,"~/src/index.js"
+'8  13  0  ~/src/index.js
+|4,56,13,0,1755725597,"~/src/index.js"
+'9  6  0  ~/src/App.js
+|4,57,6,0,1755724422,"~/src/App.js"
 
 # Jumplist (newest first):
--'  93  7  ~/.gitignore
-|4,39,93,7,1755555028,"~/.gitignore"
--'  90  9  ~/.gitignore
-|4,39,90,9,1755554972,"~/.gitignore"
--'  90  9  ~/.gitignore
-|4,39,90,9,1755554870,"~/.gitignore"
--'  90  9  ~/.gitignore
-|4,39,90,9,1755554453,"~/.gitignore"
--'  90  9  ~/.gitignore
-|4,39,90,9,1755553953,"~/.gitignore"
--'  49  0  ~/.gitignore
-|4,39,49,0,1755553917,"~/.gitignore"
--'  49  0  ~/.gitignore
-|4,39,49,0,1755553917,"~/.gitignore"
--'  49  0  ~/.gitignore
-|4,39,49,0,1755553917,"~/.gitignore"
--'  49  0  ~/.gitignore
-|4,39,49,0,1755553917,"~/.gitignore"
--'  49  0  ~/.gitignore
-|4,39,49,0,1755553410,"~/.gitignore"
--'  72  11  ~/.gitignore
-|4,39,72,11,1755553220,"~/.gitignore"
--'  72  11  ~/.gitignore
-|4,39,72,11,1755553220,"~/.gitignore"
--'  72  11  ~/.gitignore
-|4,39,72,11,1755553220,"~/.gitignore"
--'  72  11  ~/.gitignore
-|4,39,72,11,1755553220,"~/.gitignore"
--'  72  11  ~/.gitignore
-|4,39,72,11,1755553220,"~/.gitignore"
--'  72  11  ~/.gitignore
-|4,39,72,11,1755551960,"~/.gitignore"
--'  72  12  ~/.gitignore
-|4,39,72,12,1755551894,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1755551769,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1755551769,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1755551769,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1755551769,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1755551769,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1755551769,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1755551769,"~/.gitignore"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
--'  1  0  ~/src/index.js
-|4,39,1,0,1755548674,"~/src/index.js"
+-'  7  18  ~/package.json
+|4,39,7,18,1755725759,"~/package.json"
+-'  1  0  ~/package.json
+|4,39,1,0,1755725738,"~/package.json"
+-'  3  23  ~/src/index.js
+|4,39,3,23,1755725709,"~/src/index.js"
+-'  3  23  ~/src/index.js
+|4,39,3,23,1755725709,"~/src/index.js"
+-'  12  0  ~/src/index.js
+|4,39,12,0,1755725682,"~/src/index.js"
+-'  12  0  ~/src/index.js
+|4,39,12,0,1755725682,"~/src/index.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755725677,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755725677,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755725677,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755725677,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725647,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725647,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725647,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725647,"~/src/App.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725621,"~/src/index.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725621,"~/src/index.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725621,"~/src/index.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725621,"~/src/index.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725608,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725608,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725608,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725608,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725608,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725608,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725608,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755725608,"~/src/App.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725597,"~/src/index.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725597,"~/src/index.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725597,"~/src/index.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725597,"~/src/index.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725597,"~/src/index.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725597,"~/src/index.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725597,"~/src/index.js"
+-'  13  0  ~/src/index.js
+|4,39,13,0,1755725597,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  1  35063  ~/src/index.js
+|4,39,1,35063,1755724427,"~/src/index.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  6  0  ~/src/App.js
+|4,39,6,0,1755724422,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1  0  ~/src/App.js
+|4,39,1,0,1755724303,"~/src/App.js"
+-'  1936  0  ~/src/App.js
+|4,39,1936,0,1755724300,"~/src/App.js"
+-'  985  0  ~/src/App.js
+|4,39,985,0,1755724300,"~/src/App.js"
+-'  1936  0  ~/src/App.js
+|4,39,1936,0,1755724300,"~/src/App.js"
+-'  985  0  ~/src/App.js
+|4,39,985,0,1755724300,"~/src/App.js"
+-'  1936  0  ~/src/App.js
+|4,39,1936,0,1755724300,"~/src/App.js"
+-'  985  0  ~/src/App.js
+|4,39,985,0,1755724300,"~/src/App.js"
+-'  1936  0  ~/src/App.js
+|4,39,1936,0,1755724300,"~/src/App.js"
+-'  985  0  ~/src/App.js
+|4,39,985,0,1755724300,"~/src/App.js"
+-'  1936  0  ~/src/App.js
+|4,39,1936,0,1755724300,"~/src/App.js"
+-'  985  0  ~/src/App.js
+|4,39,985,0,1755724300,"~/src/App.js"
+-'  1936  0  ~/src/App.js
+|4,39,1936,0,1755724300,"~/src/App.js"
+-'  985  0  ~/src/App.js
+|4,39,985,0,1755724300,"~/src/App.js"
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	*	1755555025	0
-	"	93	7
-	^	93	8
-	.	93	7
+> ~/package.json
+	*	1755725757	0
+	"	7	18
+	^	7	19
+	.	7	18
+	+	7	18
+
+> ~/src/index.js
+	*	1755725705	0
+	"	3	23
+	^	3	24
+	.	4	0
+	+	1	1321
+	+	1	1991
+	+	1	1323
+	+	1	1989
+	+	1	1991
+	+	1	1322
+	+	1	1218
+	+	1	1
+	+	1	102
+	+	1	1188
+	+	1	1219
 	+	1	0
-	+	94	0
+	+	1	101
+	+	1	1187
+	+	1	1218
+	+	1	1
+	+	1	1221
+	+	1	0
+	+	1	1220
+	+	1	37
+	+	1	1704
+	+	1	101
+	+	1	100
+	+	1	141
+	+	1	1136
+	+	1	397
+	+	1	1135
+	+	1	651
+	+	1	12330
+	+	13	0
+	+	4	0
+
+> ~/src/App.js
+	*	1755725659	0
+	"	1	0
+	^	6	0
+	.	6	0
+	+	1	198
+	+	1935	0
+	+	1	37
+	+	962	0
+	+	6	0
+
+> ~/public/index.html
+	*	1755721653	0
+	"	1	0
+
+> ~/index.js
+	*	1755702088	0
+	"	1	0
+
+> ~/build/manifest.json
+	*	1755701224	0
+	"	1	0
+
+> ~/build/index.html
+	*	1755701201	0
+	"	1	0
+
+> ~/public/manifest.json
+	*	1755701007	0
+	"	11	16
+	^	11	17
+	.	11	16
+	+	15	0
+	+	11	16
+
+> ~/craco.config.js
+	*	1755641402	0
+	"	1	1
+	^	1	2
+	.	25	1
+	+	25	217
+	+	25	1
+	+	13	1
+	+	1	0
+	+	2	0
+	+	25	1
+
+> ~/.babelrc
+	*	1755639957	0
+	"	5	0
+	^	5	1
+	.	1	0
+	+	1	112
+	+	7	0
+	+	6	1
+	+	1	0
+	+	2	0
+	+	1	0
+
+> ~/.gitignore
+	*	1755624166	0
+	"	96	4
+	^	96	5
+	.	96	4
+	+	1	0
+	+	97	0
 	+	72	13
 	+	87	14
 	+	90	9
-	+	94	0
+	+	97	0
 	+	92	9
-	+	93	7
+	+	93	8
+	+	96	4
 
-> ~/src/index.js
-	*	1755548667	0
+> ~/.gitmodules
+	*	1755558411	0
 	"	1	0
-	.	1	0
-	+	8	2
-	+	27	2
-	+	10	1
-	+	27	0
-	+	25	2
-	+	10	0
-	+	4	0
-	+	1	1
-	+	2	1
-	+	3	1
-	+	4	1
-	+	1	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	1	1
-	+	6	1
-	+	1	0
-	+	6	0
-	+	1	0
 
 > ~/src/index.js.b
 	*	1755548620	0
@@ -349,17 +432,6 @@
 > ~/index.js.b
 	*	1755527054	0
 	"	1	0
-
-> ~/index.js
-	*	1755527033	0
-	"	1	0
-
-> ~/.babelrc
-	*	1755314701	0
-	"	4	4
-	^	4	5
-	.	4	4
-	+	4	4
 
 > ~/node_modules/@babel/runtime/helpers/esm/defineProperty.js
 	*	1755314361	0
@@ -376,10 +448,6 @@
 > ~/package-lock.json
 	*	1755313435	0
 	"	3988	73
-
-> ~/package.json
-	*	1755313418	0
-	"	20	0
 
 > ~/firebase.json
 	*	1755313361	0

@@ -4,7 +4,7 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "main": "kindnessadviceapp.js",
+  "main": "index.js",
   "scripts": {
     "start": "craco start",
     "build": "craco build",

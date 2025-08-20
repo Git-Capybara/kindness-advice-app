@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Nautilus.desktop" score="0.5" last-seen="1755475319"/>
-    <application id="google-chrome.desktop" score="16685.4609375" last-seen="1755554864"/>
-    <application id="org.gnome.Terminal.desktop" score="1093" last-seen="1755554881"/>
-    <application id="org.gnome.FileRoller.desktop" score="4.5" last-seen="1755475316"/>
-    <application id="org.gnome.TextEditor.desktop" score="18.5" last-seen="1755528631"/>
+    <application id="org.gnome.Nautilus.desktop" score="0.25" last-seen="1755643734"/>
+    <application id="google-chrome.desktop" score="13637.73046875" last-seen="1755724162"/>
+    <application id="org.gnome.Terminal.desktop" score="1284.5" last-seen="1755724129"/>
+    <application id="org.gnome.FileRoller.desktop" score="2.25" last-seen="1755475316"/>
+    <application id="org.gnome.TextEditor.desktop" score="37.75" last-seen="1755723735"/>
   </context>
 </application-state>

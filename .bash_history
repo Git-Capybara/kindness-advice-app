@@ -255,3 +255,93 @@ git rm --cached -r Downloads/
 git commit -m "Remove large files from Downloads"
 git push
 git push -u origin main
+rm -rf .git
+git init
+vi .gitignore
+git config --global user.name "Git-Capybara"
+git config --global user.email "emilyzhaoxy@gmail.com"
+git branch -M main
+git add -v .
+vi .gitignore
+rm -rf .git
+git init
+branch -M main
+git branch -M main
+git config --global user.name "Git-Capybara"
+git config --global user.email "emilyzhaoxy@gmail.com"
+git add -v .
+git commit -m "another try at a commit"
+git remote add origin https://github.com/Git-Capybara/kindness-advice-app.git
+git push -u origin main
+ls
+git status
+git rm --cached .nvm
+rm -rf .git/modules/.nvm
+vi .gitmodules
+git ls-files --stage | grep .nvm
+ls -la .gitmodules
+rm .gitmodules
+git status
+vi .gitignore
+git commit -m "rm tracked .nvm to fix submodule issue"
+vi .gitignore
+git commit -m "ignore local .nvm folder"
+vi .gitignore
+git status
+git add .gitignore
+git commit -m "ignore local .nvm foldr"
+git push -u origin main
+vi .babelrc
+npm install --save-dev @babel/preset-env @babel/preset-react @babel/plugin-transform-runtime
+npm install
+git add package.json package-lock.json
+git commit -m "fix babel runtime dependency placement"
+git push -u origin main
+npm install @craco/craco --save-dev
+vi craco.config.js
+npm run build
+ls
+vi craco.config.js
+npm run build
+rm -rf node_modules package-lock json
+npm install
+npm run build
+rm -rf node_modules package-lock.json
+vi package.json
+npm install
+vi package.json
+npm run build
+npm install firebase
+npm run build
+git add package.json
+git commit -m "fix build by removing commonjs and adding firebase dependency"
+git push -u origin main
+git add craco.config.js
+git commit -m "add craco.congig.js file"
+git push -u origin main
+npm run build
+npx serve -s build
+vi public/manifest.json
+npm run build
+npx serve -s build
+npm list react react-dom
+npm install react react-dom
+vi package.json
+npm run build
+npx serve -s build
+npm run build
+npx serve -s build
+ls build/static/js
+vi build/index.html
+npx serve -s build
+npm install -g http-server
+http-server ./build
+cd src
+ls
+vi index.js
+cd ..
+npm run build
+http-server ./build
+cd build/static/js
+ls -l
+cd ..
