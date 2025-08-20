@@ -342,7 +342,7 @@ function ProblemItem({ problem, db, userId, aiCheckFunction, updateKindnessCount
 }
 
 
-function App() {
+function ApplicationStuff() {
  const [db, setDb] = useState(null);
  const [auth, setAuth] = useState(null);
  const [userId, setUserId] = useState(null);
