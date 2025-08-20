@@ -1,7 +1,19 @@
+console.log("react app starting...");
 import React, { useState, useEffect, useCallback } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
 import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, doc, getDoc, setDoc, updateDoc, increment } from 'firebase/firestore';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css'; // optional, depending on your setup
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 // Global variables provided by the Canvas environment
 // The appId variable below is used for data paths in Firestore to ensure persistence.
@@ -16,7 +28,7 @@ const firebaseConfig = {
 
   storageBucket: "kindness-advice-column.firebasestorage.app",
 
-  messagingSenderId: "541838051755",
+  messagingSenderId: "541838051756",
 
   appId: "1:541838051755:web:3b074a5f7bee7454a46aee",
 
