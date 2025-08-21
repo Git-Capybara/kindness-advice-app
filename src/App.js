@@ -432,7 +432,7 @@ function ApplicationStuff() {
    };
 
 
-   const apiKey = ""; // Canvas will provide this at runtime
+   const apiKey = process.env.REACT_APP_GEMINI_API_KEY; // Canvas will provide this at runtime
    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
 
 
@@ -503,7 +503,7 @@ function ApplicationStuff() {
    };
 
 
-   const apiKey = ""; // Canvas will provide this at runtime
+   const apiKey = process.env.REACT_APP_GEMINI_API_KEY; // Canvas will provide this at runtime
    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
 
 
