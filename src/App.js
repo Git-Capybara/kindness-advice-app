@@ -25,11 +25,8 @@ const firebaseConfig = {
 
 };
 
-const app = getApps().length
-  ? getApps()[0]
-  : initializeApp(firebaseConfig);
-
-const db = getFirestore(app);
+const [db] = useState(getFirestore(getApps().length ? getApps()[0] : initializeApp(firebaseConfig)));
+const [auth] = useState(getAuth(getApps().length ? getApps()[0] : initializeApp(firebaseConfig)));
 const firebaseAuth = getAuth(app);const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
 
 /**
@@ -370,30 +367,26 @@ function ApplicationStuff() {
 
 
  // Initialize Firebase and set up authentication listener
- useEffect(() => {
-  if (!auth) return;
+useEffect(() => {
+  setLoading(true);
 
-  let unsubscribe;
-
-  try {
-    unsubscribe = onAuthStateChanged(auth, (user) => {
+  const unsubscribe = onAuthStateChanged(auth, async (user) => {
+    try {
       if (user) {
         setUserId(user.uid);
       } else {
-        signInAnonymously(auth)
-          .then((cred) => setUserId(cred.user.uid))
-          .catch((err) => console.error("Error signing in:", err));
+        const cred = await signInAnonymously(auth);
+        setUserId(cred.user.uid);
       }
+    } catch (err) {
+      console.error("Error during anonymous sign-in:", err);
+    } finally {
       setIsAuthReady(true);
-    });
-  } catch (error) {
-    console.error("Failed to initialize Firebase:", error);
-    setLoading(false);
-  }
+      setLoading(false);
+    }
+  });
 
-  return () => {
-    if (unsubscribe) unsubscribe();
-  };
+  return () => unsubscribe();
 }, [auth]);
 
 
@@ -620,30 +613,32 @@ function ApplicationStuff() {
 
  // Fetch problems from Firestore once auth is ready
  useEffect(() => {
-   if (db && isAuthReady && userId) {
-     setLoading(true);
+  if (!isAuthReady) return;
 
-     const problemsCollectionRef = collection(db, `artifacts/${appId}/public/data/problems`);
-     const q = query(problemsCollectionRef);
+  setLoading(true);
+  const problemsCollectionRef = collection(db, `artifacts/${appId}/public/data/problems`);
+  
+  const unsubscribe = onSnapshot(problemsCollectionRef, (snapshot) => {
+    // Map documents to objects with id and data
+    const fetchedProblems = snapshot.docs.map(doc => ({
+      id: doc.id,
+      ...doc.data()
+    }));
 
+    // Sort problems by timestamp descending (newest first)
+    fetchedProblems.sort((a, b) => (b.timestamp?.toDate() || 0) - (a.timestamp?.toDate() || 0));
 
-     const unsubscribe = onSnapshot(q, (snapshot) => {
-       const fetchedProblems = snapshot.docs.map(doc => ({
-         id: doc.id,
-         ...doc.data()
-       }));
-       fetchedProblems.sort((a, b) => (b.timestamp?.toDate() || 0) - (a.timestamp?.toDate() || 0));
-       setProblems(fetchedProblems);
-       setLoading(false);
-     }, (error) => {
-       console.error("Error fetching problems:", error);
-       setLoading(false);
-     });
+    // Update state
+    setProblems(fetchedProblems);
+    setLoading(false);
+  }, (error) => {
+    console.error("Error fetching problems:", error);
+    setLoading(false);
+  });
 
+  return () => unsubscribe();
+}, [db, isAuthReady]);
 
-     return () => unsubscribe();
-   }
- }, [db, isAuthReady]);
 
 
  // Fetch the kindness counter from Firestore
