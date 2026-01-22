@@ -370,7 +370,10 @@ function ApplicationStuff() {
    console.log("isAuthReady = ", isAuthReady); 
 
    try {
-     const app = initializeApp(firebaseConfig); // Use firebaseConfig from Canvas environment
+     import { getApps } from "firebase/app";
+     const app = getApps().length
+       ? getApps()[0]
+       : initializeApp(firebaseConfig);
      const firestore = getFirestore(app);
      const firebaseAuth = getAuth(app);
 
@@ -390,12 +393,14 @@ function ApplicationStuff() {
              await signInAnonymously(firebaseAuth);
            }
          } catch (error) {
-           console.error("Error signing in:", error);
-           setUserId(crypto.randomUUID()); // Fallback to a random UUID
-         }
-       }
-       setIsAuthReady(true);
-     });
+  console.error("Error signing in:", error);
+  return; // ⛔ stop until auth works
+}
+
+if (firebaseAuth.currentUser) {
+  setUserId(firebaseAuth.currentUser.uid);
+  setIsAuthReady(true);
+});
 
 
      return () => unsubscribe();
@@ -628,8 +633,9 @@ function ApplicationStuff() {
 
  // Fetch problems from Firestore once auth is ready
  useEffect(() => {
-   if (db && isAuthReady) {
+   if (db && isAuthReady && userId) {
      setLoading(true);
+
      const problemsCollectionRef = collection(db, `artifacts/${appId}/public/data/problems`);
      const q = query(problemsCollectionRef);
 
@@ -671,7 +677,7 @@ function ApplicationStuff() {
        // If the document doesn't exist yet, it means no kind responses have been posted.
        setKindnessCount(0);
      }
-   }, (error: any) => {
+   }, (error) => {
      console.error("Error fetching kindness counter:", error);
    });
 
