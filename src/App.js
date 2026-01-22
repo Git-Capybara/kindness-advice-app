@@ -9,7 +9,7 @@ import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, d
 const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
 const firebaseConfig = {
 
-  apiKey: "AIzaSyBLYemOXieL4fTbEaMlO3vW4ZLzp0GDY8s",
+  apiKey: "AIzaSyBpuXQYMG9JcIAfO-NkXnaIndnKl5wW5sw",
 
   authDomain: "kindness-advice-column.firebaseapp.com",
 
