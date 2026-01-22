@@ -332,8 +332,6 @@ function ProblemItem({ problem, db, userId, aiCheckFunction, updateKindnessCount
 
 
 function ApplicationStuff() {
- const [db, setDb] = useState(null);
- const [auth, setAuth] = useState(null);
  const [userId, setUserId] = useState(null);
  const [isAuthReady, setIsAuthReady] = useState(false);
  const [problemText, setProblemText] = useState('');
@@ -638,7 +636,7 @@ useEffect(() => {
   });
 
   return () => unsubscribe();
-}, [db, isAuthReady]);
+}, [isAuthReady]);
 
 
 
