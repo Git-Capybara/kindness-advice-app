@@ -371,29 +371,31 @@ function ApplicationStuff() {
 
  // Initialize Firebase and set up authentication listener
  useEffect(() => {
-  if (!auth) return; // make sure auth exists
+  if (!auth) return;
 
-  const unsubscribe = onAuthStateChanged(auth, (user) => {
-    if (user) {
-      setUserId(user.uid);
-    } else {
-      // Sign in anonymously if no user
-      signInAnonymously(auth)
-        .then((cred) => setUserId(cred.user.uid))
-        .catch((err) => console.error("Error signing in:", err));
-    }
-    setIsAuthReady(true);
-  });
+  let unsubscribe;
 
-  // Cleanup
-  return () => unsubscribe();
+  try {
+    unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setUserId(user.uid);
+      } else {
+        signInAnonymously(auth)
+          .then((cred) => setUserId(cred.user.uid))
+          .catch((err) => console.error("Error signing in:", err));
+      }
+      setIsAuthReady(true);
+    });
+  } catch (error) {
+    console.error("Failed to initialize Firebase:", error);
+    setLoading(false);
+  }
+
+  return () => {
+    if (unsubscribe) unsubscribe();
+  };
 }, [auth]);
 
-   } catch (error) {
-     console.error("Failed to initialize Firebase:", error);
-     setLoading(false);
-   }
- }, []);
 
 
  // AI Kindness Check function (reusable for problems and responses)
