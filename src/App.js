@@ -1,6 +1,6 @@
 console.log("react app starting...");
 import React, { useState, useEffect, useCallback } from 'react';
-import { initializeApp } from 'firebase/app';
+import { initializeApp, getApps } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
 import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, doc, getDoc, setDoc, updateDoc, increment } from 'firebase/firestore';
 
@@ -25,7 +25,12 @@ const firebaseConfig = {
 
 };
 
-const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+const app = getApps().length
+  ? getApps()[0]
+  : initializeApp(firebaseConfig);
+
+const db = getFirestore(app);
+const firebaseAuth = getAuth(app);const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
 
 /**
 * Component for the input field and button to post a reply to a specific suggestion.
@@ -370,14 +375,6 @@ function ApplicationStuff() {
    console.log("isAuthReady = ", isAuthReady); 
 
    try {
-     import { getApps } from "firebase/app";
-     const app = getApps().length
-       ? getApps()[0]
-       : initializeApp(firebaseConfig);
-     const firestore = getFirestore(app);
-     const firebaseAuth = getAuth(app);
-
-
      setDb(firestore);
      setAuth(firebaseAuth);
 
