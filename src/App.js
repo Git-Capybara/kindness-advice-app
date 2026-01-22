@@ -25,9 +25,7 @@ const firebaseConfig = {
 
 };
 
-const [db] = useState(getFirestore(getApps().length ? getApps()[0] : initializeApp(firebaseConfig)));
-const [auth] = useState(getAuth(getApps().length ? getApps()[0] : initializeApp(firebaseConfig)));
-const firebaseAuth = getAuth(app);const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
 
 /**
 * Component for the input field and button to post a reply to a specific suggestion.
@@ -343,6 +341,9 @@ function ApplicationStuff() {
  const [loading, setLoading] = useState(true);
  const [aiCheckMessage, setAiCheckMessage] = useState('');
  const [isPostingProblem, setIsPostingProblem] = useState(false);
+ const app = getApps().length ? getApps()[0] : initializeApp(firebaseConfig);
+ const db = getFirestore(app);
+ const auth = getAuth(app);
 
 
  // State for private AI advice feature
