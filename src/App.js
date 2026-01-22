@@ -371,36 +371,24 @@ function ApplicationStuff() {
 
  // Initialize Firebase and set up authentication listener
  useEffect(() => {
-   // Moved console.log for isAuthReady here
-   console.log("isAuthReady = ", isAuthReady); 
+  if (!auth) return; // make sure auth exists
 
-   try {
-     setDb(firestore);
-     setAuth(firebaseAuth);
+  const unsubscribe = onAuthStateChanged(auth, (user) => {
+    if (user) {
+      setUserId(user.uid);
+    } else {
+      // Sign in anonymously if no user
+      signInAnonymously(auth)
+        .then((cred) => setUserId(cred.user.uid))
+        .catch((err) => console.error("Error signing in:", err));
+    }
+    setIsAuthReady(true);
+  });
 
+  // Cleanup
+  return () => unsubscribe();
+}, [auth]);
 
-     const unsubscribe = onAuthStateChanged(firebaseAuth, async (user) => {
-       if (user) {
-         setUserId(user.uid);
-       } else {
-         try {
-           if (initialAuthToken) {
-             await signInWithCustomToken(firebaseAuth, initialAuthToken);
-           } else {
-             await signInAnonymously(firebaseAuth);
-           }
-         } catch (error) {
-  console.error("Error signing in:", error);
-  return; // ⛔ stop until auth works
-}
-
-if (firebaseAuth.currentUser) {
-  setUserId(firebaseAuth.currentUser.uid);
-  setIsAuthReady(true);
-});
-
-
-     return () => unsubscribe();
    } catch (error) {
      console.error("Failed to initialize Firebase:", error);
      setLoading(false);
