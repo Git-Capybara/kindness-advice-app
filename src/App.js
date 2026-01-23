@@ -418,7 +418,7 @@ useEffect(() => {
    };
 
 
-   const apiKey = process.env.REACT_APP_GEMINI_API_KEY; // Canvas will provide this at runtime
+   const apiKey = "AIzaSyBpuXQYMG9JcIAfO-NkXnaIndnKl5wW5sw"; // Canvas will provide this at runtime
    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`;
    let aiResponse;
    let retries = 0;
@@ -487,7 +487,7 @@ useEffect(() => {
    };
 
 
-   const apiKey = process.env.REACT_APP_GEMINI_API_KEY; // Canvas will provide this at runtime
+   const apiKey = "AIzaSyBpuXQYMG9JcIAfO-NkXnaIndnKl5wW5sw"; // Canvas will provide this at runtime
    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`;
 
 
