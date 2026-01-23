@@ -419,8 +419,7 @@ useEffect(() => {
 
 
    const apiKey = process.env.REACT_APP_GEMINI_API_KEY; // Canvas will provide this at runtime
-   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
-
+   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`;
    let aiResponse;
    let retries = 0;
    const maxRetries = 5;
