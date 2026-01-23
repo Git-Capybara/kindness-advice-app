@@ -16,7 +16,7 @@ const firebaseConfig = {
 
   storageBucket: "kindness-advice-column.firebasestorage.app",
 
-  messagingSenderId: "541838051756",
+  messagingSenderId: "541838051755",
 
   appId: "1:541838051755:web:3b074a5f7bee7454a46aee",
 
