@@ -5,7 +5,10 @@ import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, d
 
 // Global variables provided by the Canvas environment
 // The appId variable below is used for data paths in Firestore to ensure persistence.
-const appId = process.env.REACT_APP_APP_ID || 'kindness-advice-column';
+const appId = typeof __app_id !== 'undefined'
+  ? __app_id
+  : 'default-app-id';
+
 const firebaseConfig = {
 
   apiKey: "AIzaSyBLYemOXieL4fTbEaMlO3vW4ZLzp0GDY8s",
