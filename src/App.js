@@ -9,7 +9,7 @@ import { getFirestore, collection, addDoc, query, onSnapshot, serverTimestamp, d
 const appId = process.env.REACT_APP_APP_ID || 'kindness-advice-column';
 const firebaseConfig = {
 
-  apiKey: "AIzaSyBpuXQYMG9JcIAfO-NkXnaIndnKl5wW5sw",
+  apiKey: "AIzaSyBLYemOXieL4fTbEaMlO3vW4ZLzp0GDY8s",
 
   authDomain: "kindness-advice-column.firebaseapp.com",
 
