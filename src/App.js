@@ -419,7 +419,7 @@ useEffect(() => {
 
 
    const apiKey = "AIzaSyBpuXQYMG9JcIAfO-NkXnaIndnKl5wW5sw"; // Canvas will provide this at runtime
-   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`;
+   const apiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=${apiKey}`;
    let aiResponse;
    let retries = 0;
    const maxRetries = 5;
@@ -488,7 +488,7 @@ useEffect(() => {
 
 
    const apiKey = "AIzaSyBpuXQYMG9JcIAfO-NkXnaIndnKl5wW5sw"; // Canvas will provide this at runtime
-   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${apiKey}`;
+   const apiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent?key=${apiKey}`;
 
 
    let aiResponse;
