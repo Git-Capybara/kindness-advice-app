@@ -27,17 +27,19 @@ Make sure you have Node.js and npm installed.
 1. Clone the repository:
    ```bash
    git clone [https://github.com/Git-Capybara/kindness-advice-app.git](https://github.com/Git-Capybara/kindness-advice-app.git)
+
 Navigate into the project directory:
 
-Bash
 cd kindness-advice-app
+
 Install the dependencies:
 
-Bash
 npm install
-Running the App
+
+Running the App:
+
 To start the development server locally:
 
-Bash
 npm start
+
 Open http://localhost:3000 to view it in your browser.
