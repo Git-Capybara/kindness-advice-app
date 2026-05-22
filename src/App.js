@@ -418,8 +418,7 @@ useEffect(() => {
    };
 
 
-   const apiKey = process.env.REACT_APP_GEMINI_API_KEY;
-   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+   const apiUrl = "/.netlify/functions/gemini";
    let aiResponse;
    let retries = 0;
    const maxRetries = 5;
