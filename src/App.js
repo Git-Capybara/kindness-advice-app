@@ -426,12 +426,15 @@ useEffect(() => {
 
 
    while (retries < maxRetries) {
-     try {
-       const response = await fetch(apiUrl, {
-         method: 'POST',
-         headers: { 'Content-Type': 'application/json' },
-         body: JSON.stringify(payload)
-       });
+     const response = await fetch(apiUrl, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify(payload)
+});
+
+const data = await response.json();
 
 
        if (!response.ok) {
