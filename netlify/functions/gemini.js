@@ -2,7 +2,7 @@ exports.handler = async (event) => {
   try {
     const apiKey = process.env.GEMINI_API_KEY;
 
-    const requestBody = JSON.parse(event.body);
+    const body = JSON.parse(event.body);
 
     const response = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`,
@@ -11,7 +11,7 @@ exports.handler = async (event) => {
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify(requestBody)
+        body: JSON.stringify(body)
       }
     );
 
@@ -19,7 +19,10 @@ exports.handler = async (event) => {
 
     return {
       statusCode: 200,
-      body: JSON.stringify(data)
+      body: JSON.stringify({
+        text:
+          data.candidates?.[0]?.content?.parts?.[0]?.text || ""
+      })
     };
 
   } catch (error) {
