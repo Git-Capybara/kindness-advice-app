@@ -426,17 +426,15 @@ useEffect(() => {
 
 
    while (retries < maxRetries) {
-     const response = await fetch(apiUrl, {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json"
-  },
-  body: JSON.stringify(payload)
-});
+     try {
 
-const data = await response.json();
-
-
+       const response = await fetch(apiUrl, {
+         method: "POST",
+         headers: {
+           "Content-Type": "application/json"
+         },
+         body: JSON.stringify(payload)
+       });
        if (!response.ok) {
          if (response.status === 429) { // Too Many Requests
            const delay = baseDelay * Math.pow(2, retries);
@@ -489,8 +487,7 @@ const data = await response.json();
    };
 
 
-   const apiKey = process.env.REACT_APP_GEMINI_API_KEY;
-   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+   const apiUrl = "/.netlify/functions/gemini";
 
    let aiResponse;
    let retries = 0;
@@ -533,7 +530,7 @@ const data = await response.json();
    }
 
 
-   const aiResultText = aiResponse?.candidates?.[0]?.content?.parts?.[0]?.text;
+   const aiResultText = aiResponse?.text;
    if (!aiResultText) {
      throw new Error("AI response was empty or malformed.");
    }
