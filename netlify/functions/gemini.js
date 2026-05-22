@@ -1,25 +1,17 @@
 exports.handler = async (event) => {
   try {
-    const API_KEY = process.env.GEMINI_API_KEY;
+    const apiKey = process.env.GEMINI_API_KEY;
 
-    const { prompt } = JSON.parse(event.body);
+    const requestBody = JSON.parse(event.body);
 
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`,
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
         },
-        body: JSON.stringify({
-          contents: [
-            {
-              parts: [
-                { text: prompt }
-              ]
-            }
-          ]
-        })
+        body: JSON.stringify(requestBody)
       }
     );
 
@@ -27,11 +19,7 @@ exports.handler = async (event) => {
 
     return {
       statusCode: 200,
-      body: JSON.stringify({
-        text:
-          data.candidates?.[0]?.content?.parts?.[0]?.text
-          || "No response"
-      })
+      body: JSON.stringify(data)
     };
 
   } catch (error) {
